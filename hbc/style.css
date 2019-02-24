@@ -1,0 +1,58 @@
+html,body,div,img{
+	padding: 0;
+	margin: 0;
+}
+html,body{
+	display: table;
+	height: 100%;
+	width: 100%;
+}
+.container {
+    display: table-cell;
+    vertical-align: middle;
+    text-align:  center;
+    width: 100%;
+}
+
+.alipay_img img {
+    width: 55%;
+    padding-bottom: 12px;
+    max-width: 400px;
+}
+
+.title,.title2 {
+    font-size: 18px;
+    padding: 0 8%;
+}
+
+.title2{
+	padding-bottom: 12px;
+}
+
+.btn {
+    display:  inline-block;
+    padding: 4px 10px;
+    background:  #ff5400;
+    font-size: 18px;
+    border-radius: 8px;
+    color: #fff;
+    cursor:  pointer;
+    margin-bottom: 14px;
+    font-weight: 600;
+}
+.btn a{
+    text-decoration: none;
+    color: #fff;
+}
+.text,.text2 {
+    font-size: 12px;
+    line-height: 20px;
+    color: #a4a4a4;
+    padding-bottom: 12px;
+}
+.bold{
+    font-weight: 600;
+}
+#foo{
+    opacity: 0;
+}
