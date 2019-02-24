@@ -31,7 +31,7 @@ body a:hover,body a:active,body a:focus{text-decoration:none;outline:none;-webki
 .flash ul{height:100%}
 .flash li{float:left;width:100%;height:100%;position:relative}
 .flash img{width:100%;height:100%}
-.flash h3{position:absolute;left:0;bottom:0;background:rgba(0,0,0,0.8);height:30px;line-height:30px;padding:0 15px;-webkit-box-sizing:border-box;box-sizing:border-box;width:100%;color:#fff;font-size:14px;font-weight:bold}
+/*.flash h3{position:absolute;left:0;bottom:0;background:rgba(0,0,0,0.8);height:30px;line-height:30px;padding:0 15px;-webkit-box-sizing:border-box;box-sizing:border-box;width:100%;color:#fff;font-size:14px;font-weight:bold}*/
 .num{position:absolute;right:6px;bottom:13px;height:5px}
 .num span{float:left;width:5px;height:5px;margin:0 2px;background:#586169;border-radius:50%}
 .num span.swiper-active-switch{background-color:#fff}
