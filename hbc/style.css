@@ -15,7 +15,7 @@ html,body{
 }
 
 .alipay_img img {
-    width: 35%;
+    width: 45%;
     padding-bottom: 12px;
     max-width: 400px;
 }
@@ -31,7 +31,7 @@ html,body{
 
 .btn {
     display:  inline-block;
-    padding: 18px 10px;
+    padding: 15px 10px;
     background:  #ff5400;
     font-size: 18px;
     border-radius: 8px;
