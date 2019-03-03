@@ -251,4 +251,13 @@ img, object, embed, video {
 	width: 286px;
 	height: 40px;
 }
-
+/*footer*/
+#footer{
+	text-align: center;
+	width: 100%;
+	margin: 60px 0 10px 0;
+}
+#footer p{
+	color: #adadad;
+	font-size: 12px;
+}
