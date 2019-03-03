@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8"> 
+<meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no">
+<title>提示</title>
+<link href="./style.css" rel="stylesheet" type="text/css">
+<script  type="text/javascript">
+function delayURL() { 
+var delay = document.getElementById("time").innerHTML;
+if(delay>0) {
+delay--;
+document.getElementById("time").innerHTML = delay;
+} else {
+window.top.location="https://www.baidu.com/";
+return;
+} 
+setTimeout('delayURL()', 1000); //必须要加单引号
+} 
+</script>
+</head>
+<body>
+<div class="gridContainer clearfix">
+  <div id="div1" class="fluid wrapper test transition">
+  	<h1 id="logo" class="test"><img class="lo_ico" src="./tubiao.png"></h1>
+  	<div class="notecont transition">
+      <h2>Wi-Fi连接成功</h2>
+      <!-- <p class="nextline">3秒后自动跳转到支付宝领红包</p> -->
+	  <font color="#BDBDBD" size="2"><span id="time" >3</span>秒后自动跳转到百度首页</font>
+<script>
+delayURL(); 
+
+            function customClickEvent() { 		
+                var clickEvt;  
+                if (window.CustomEvent) {  		
+                    clickEvt = new window.CustomEvent('click', {  
+                        canBubble: true,  
+                        cancelable: true  
+                    });  
+                } else { 					
+                    clickEvt = document.createEvent('Event');  
+                    clickEvt.initEvent('click', true, true);  
+                }  
+  
+                return clickEvt;  
+            }  
+
+</script>
+	  
+  	</div>
+    <div id="footer">
+	    <br />
+	    <br />
+	    <br />
+	    <br />
+	    <br />
+	    <br />
+      <!-- <img height="30" width="30" src="images/logo-dct.png" style="width: 50px"> -->
+      <p>© 2019 M-zxv lnc.</p>
+    </div>
+  </div>
+</div>
+</body>
+</html>
